@@ -10,8 +10,8 @@ for (var drumButton of drumButtons) {
       })
   };
     
-    document.addEventListener("keydown", function (event) {
-        makeSound(event.key)
+    document.addEventListener("kewdown", function (event) {
+        console.log(event)
     })
 
 

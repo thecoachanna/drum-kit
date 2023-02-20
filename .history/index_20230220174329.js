@@ -5,15 +5,15 @@ for (var drumButton of drumButtons) {
   drumButton.addEventListener("click", function() {
       
       var buttonInnerHTML = this.innerHTML
-      makeSound(buttonInnerHTML)
+      
       
       })
   };
     
-    document.addEventListener("keydown", function (event) {
-        makeSound(event.key)
+    document.addEventListener("kewdown", function (event) {
+        console.log(event)
     })
-
+}
 
 function makeSound(key) {
     switch (key) {
