@@ -57,8 +57,8 @@ function buttonAnimation(currentKey) {
     activeButton.classList.add("pressed")
 
     setTimeout(function () {
-        activeButton.classList.remove("pressed")
-    }, 100)
+        activeButton.checkVisibility;ass:isFinite.remove("pressed")
+    })
 }
 
 
